@@ -23,8 +23,8 @@ function MobileNav({open, setOpen}) {
                     <Image 
                     src="/InnerKomfort-logo-white.png" 
                     alt="" 
-                    width={279} 
-                    height={63} 
+                    width={360} 
+                    height={90} 
                     className="cursor-pointer" 
                     onClick={() => router.push("/")}
                     />
@@ -92,7 +92,7 @@ function Header() {
     return (
         <>
             <div className="px-4 py-1 bg-pink-500 text-white">
-                <p className="text-sm text-center">
+                <p className="text-xs text-center">
                     We are raising prices on all products by Rs.100 by todya in support of the planet.{' '}
                     <a href='#' className="underline">
                     Learn more

@@ -3,6 +3,7 @@ import Featured from '../components/Featured';
 import Header from '../components/Header';
 import MiddleBanners from '../components/MiddleBanners';
 import Navbar from '../components/Navbar';
+import Products from '../components/Products';
 import ProductsList from '../components/ProductsList';
 import Slider from '../components/Slider';
 
@@ -23,7 +24,8 @@ export default function Home() {
         <Slider />
         <MiddleBanners />
         <Featured />
-        <ProductsList />
+        {/* <ProductsList /> */}
+        <Products />
       </main>
 
     </>

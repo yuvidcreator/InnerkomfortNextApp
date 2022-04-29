@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function ProductsList() {
     return (
-        <div className="container space-x-6 p-10 grid grid-cols-4 gap-8">
+        <div className="space-x-6 p-10 grid grid-cols-4 gap-8">
             <div className="max-w-sm rounded-xl overflow-hidden shadow-xl">
                 <Image src="/images/home-01/bn-04.jpg" width={400} height={400} alt="Product" />
 
