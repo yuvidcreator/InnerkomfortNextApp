@@ -4,9 +4,10 @@ import Header from '../components/Header';
 import MiddleBanners from '../components/MiddleBanners';
 import Navbar from '../components/Navbar';
 import ProductsList from '../components/ProductsList';
+import SinglePro from '../components/SinglePro';
 import Slider from '../components/Slider';
 
-function panties() {
+function Panties() {
     return (
         <div>
             <>
@@ -17,15 +18,12 @@ function panties() {
                     <ink rel="icon" href="/favicon.ico" />
                 </Head>
 
-                <Header />
                 <main>
-                    <Slider />
-                    <Featured />
-                    <ProductsList />
+                    <SinglePro />
                 </main>
             </>
         </div>
     )
 }
 
-export default panties
+export default Panties

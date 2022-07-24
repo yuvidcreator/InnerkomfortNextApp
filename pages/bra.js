@@ -2,9 +2,10 @@ import Head from 'next/head';
 import Featured from '../components/Featured';
 import Header from '../components/Header';
 import MiddleBanners from '../components/MiddleBanners';
+import SingleProduct from '../components/SingleProduct';
 import Slider from '../components/Slider';
 
-function bra() {
+function Bra() {
     return (
         <>
         <Head>
@@ -15,13 +16,10 @@ function bra() {
         </Head>
 
         <main>
-            <Header />
-            <Slider />
-            <MiddleBanners />
-            <Featured />
+            <SingleProduct />
         </main>
         </>
     )
 }
 
-export default bra
+export default Bra

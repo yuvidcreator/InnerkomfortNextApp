@@ -3,6 +3,7 @@ import Featured from '../components/Featured';
 import Header from '../components/Header';
 import MiddleBanners from '../components/MiddleBanners';
 import Navbar from '../components/Navbar';
+import ProductCategories from '../components/ProductCategories';
 import Products from '../components/Products';
 import ProductsList from '../components/ProductsList';
 import Slider from '../components/Slider';
@@ -18,14 +19,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
-      <Header />
       <main>
         <Slider />
-        <MiddleBanners />
-        <Featured />
-        {/* <ProductsList /> */}
-        <Products />
+        <ProductCategories />
+        <ProductsList />
       </main>
 
     </>
