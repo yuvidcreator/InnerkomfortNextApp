@@ -6,22 +6,22 @@ const ContactForm = () => {
         <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500">
             <h1 className="text-2xl font-bold dark:text-gray-50">Send a message</h1>
 
-            <label for="fullname" className="text-gray-700 font-light mt-8 dark:text-gray-50">
+            <label htmlFor="fullname" className="text-gray-700 font-light mt-8 dark:text-gray-50">
                 Full name<span className="text-red-500 dark:text-gray-50">*</span>
             </label>
             <input type="text" name="fullname" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-pink-500 font-light text-gray-700" />
 
-            <label for="email" className="text-gray-700 font-light mt-4 dark:text-gray-50">
+            <label htmlFor="email" className="text-gray-700 font-light mt-4 dark:text-gray-50">
                 E-mail<span className="text-red-500">*</span>
             </label>
             <input type="email" name="email" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-pink-500 font-light text-gray-700" />
 
-            <label for="subject" className="text-gray-700 font-light mt-4 dark:text-gray-50">
+            <label htmlFor="subject" className="text-gray-700 font-light mt-4 dark:text-gray-50">
                 Subject<span className="text-red-500">*</span>
             </label>
             <input type="text" name="subject" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-pink-500 font-light text-gray-700" />
 
-            <label for="message" className="text-gray-700 font-light mt-4 dark:text-gray-50">
+            <label htmlFor="message" className="text-gray-700 font-light mt-4 dark:text-gray-50">
                 Message<span className="text-red-500">*</span>
             </label>
             <textarea name="message" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-pink-500 font-light text-gray-700"></textarea>
